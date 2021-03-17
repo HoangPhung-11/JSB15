@@ -1,0 +1,29 @@
+#main {
+    background-image: url("https://bit.ly/3cGNLUh");
+    width: 600px;
+    height: 780px;
+    margin: 0px 0px 430px 430px;
+}
+#title{
+    transform: translate(10px,170px);
+    text-align: center;
+}
+#content{
+    text-align: center;
+    transform: translate(10px,160px);
+}
+
+#footer {
+    text-align: center;
+    transform: translate(10px, 220px);
+}
+p {
+    color: #006600;
+    font-family:;
+}
+hr{
+    width:10%;
+    background-color:#006600;
+    border: none;
+    height: 2px;
+}
