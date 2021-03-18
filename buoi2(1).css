@@ -1,0 +1,37 @@
+#main {
+    width: 300px;
+    height: 630px;
+    border-style: solid;
+    border-color:black;
+    border-width: 0.5px;
+    border-radius: 10px;
+    transform: translate(600px,0px);
+}
+hr{
+    width: 90%;
+}
+button {
+    background-color: #0066ff;
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    transform: translate(10px,10px);
+    cursor: pointer;
+}
+p {
+    transform: translate(10px,0px);
+}
+#title {
+    transform: translate(10px, 10px);
+    font-family: 'Open Sans', sans-serif;
+}
+#subtitle {
+    transform: translate(10px, -10px);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#icon {
+    margin-left: 150px;
+    font-size: large;
+}
