@@ -1,0 +1,210 @@
+.allPage {
+    width: 100%;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstPage {
+    background: linear-gradient(to right, #ECF0FF 50%, white 50%);
+    border-bottom: ridge;
+    display: flex;
+    flex-flow: column;
+}
+    .navbarDefault {
+        width: 100%;
+        transform: translate(0px, -280px);
+
+    }
+    .intro {
+        width: 450px;
+        height: 150px;
+        text-align: center;
+    }
+    .selfImage {
+        width: 435px;
+        height: 655px;
+        margin: 30px;
+    }
+    .aboutMe {
+        width: 435px;
+        height: 655px;
+    }
+.insideContainer {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+    .leftText {
+            width: 150px;
+            height: 300px;
+    }
+    .rightText {
+        width: 150px;
+        height: 300px;
+    }
+    .downloadCV {
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: medium;
+        background-color:#3f65ff;
+        border: none;
+    }
+.thirdPage {
+    border-top: ridge;
+    border-bottom: ridge;
+}
+    .leftCase {
+        width: 220px;
+        height: 650px;
+    }
+    .rightCase{
+        width: 700px;
+        height: 650px;
+    }
+    .insideEducation {
+        width: 700px;
+        height: 100px;
+        display: flex;
+        align-items:center;
+    }
+.fourthPage {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: ridge;
+}
+    .myActivity {
+        width: 325px;
+        height: 125px;
+        text-align: center;
+    }
+    .pictureContainer {
+        width: 100%;
+        height: 360px;
+        transform: translate(0px,20px);
+        display: flex;
+        justify-content: space-around;
+    }
+    .pictureHolder {
+        width: 360px;
+        height: 360px;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 360px;
+        height: 360px;
+        opacity: 0;
+        transition: .5s ease;
+      }
+      
+      .pictureHolder:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+.fifthPage {
+    display: flex;
+    flex-flow: column;
+    border-bottom: ridge;
+}
+    .contactMe {
+        width: 100%;
+        height: 180px;
+        text-align: center;
+    }
+    .contactContainer {
+        width: 950px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .insideBox {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
+        padding:10px;
+        border-style:hidden;
+        box-shadow:0px 5px 6px rgba(68, 68, 68, 0.6);
+    }
+.leftImage {
+    width: 400px;
+    height: 450px;
+    background-color: aqua;
+}
+.rightBox {
+    width: 450px;
+    height: 450px;
+    background-color:#ECF0FF ;
+    padding: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.infor {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+.message {
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    text-align: top;
+    padding-bottom: 40px;
+}
+.sendMessage {
+    background-color: #3e64ff;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+
+}
+p {
+    font-family: 'Comfortaa', cursive;
+}
+h1 {
+    font-family: 'Comfortaa', cursive;
+}
+div {
+    font-family: 'Comfortaa', cursive;
+}
+footer {
+    height: 320px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+  }
+  .iconList {
+      width: 100px;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
