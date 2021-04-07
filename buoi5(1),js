@@ -5,14 +5,14 @@ let number = prompt("1. Circle" + "\n 2.Rectangle or Square" + "\n 3. Triangle")
 if (number == 1)
 {
     let radius = prompt("Insert the radius of your circle:")
-    let circlePer = radius * radius * 3.14159265
+    let circlePer = Math.round (radius * radius * 3.14159265 *100)/100
     alert("The perimeter of your circle is: " + circlePer)
 }
 else if (number == 2)
 {
     let firstSide = prompt("Insert your shape's first side:")
     let secondSide = prompt("Insert your shape's second side:")
-    let  recPer = firstSide*2+secondSide*2
+    let  recPer = Math.round (firstSide*2+secondSide*2*100)/100
     if (firstSide == secondSide)
     {
         alert("The perimeter of your Square is: " + recPer)
@@ -26,7 +26,7 @@ else if (number == 3)
 {
     let height = prompt("Insert your Triangle's height:")
     let bottomSide = prompt("Insert the length of your Triangle's bottom:")
-    let triPer = height*bottomSide/2
+    let triPer = Math.round(height*bottomSide/2 *100)/100
     alert("The perimeter of your Triangle is: " + triPer)
 }
 else 
