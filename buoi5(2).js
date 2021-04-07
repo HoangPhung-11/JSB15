@@ -1,0 +1,6 @@
+console.log("Welcome User, let's create your own profile!")
+let name = prompt("Insert your name:")
+let age = prompt("Insert your age:")
+let job = prompt("Insert your job:")
+console.log("Complete")
+console.log(name + "\n Age: " + age + "\n Job: " +job)
