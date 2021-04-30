@@ -1,0 +1,25 @@
+.cover{
+    width: 250px;
+    height: 180px;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.text_Box{
+    width: 200px;
+    height: 25px;
+    border-style: solid;
+    border-radius: 10px;
+}
+#button{
+    width: 100px;
+    border-radius: 30px;
+}
+#login_Button{
+    width: 100px;
+    border-radius: 30px;
+}
