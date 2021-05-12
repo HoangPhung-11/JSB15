@@ -1,0 +1,18 @@
+#multiple_Choice{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+#input_Box{
+    width: 400px;
+    height: 200px;
+    border-style: ridge;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+#button{
+    width: 100px;
+    height: 40px;
+}

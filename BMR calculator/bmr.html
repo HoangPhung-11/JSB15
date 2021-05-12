@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmr.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    <title>BMR Calculator</title>
+</head>
+<body>
+    <p>BMR Calculator</p>
+    <p>Using BMR Calculator helps you to determind exactly the amount of calories <br>that your body need base on your height, weight, and your activity level</p>
+        <div id="multiple_Choice">
+            <form>
+                <i class="fas fa-female fa-2x"></i><br>
+                <label>Female</label><br>
+                <input type="checkbox" id="female">
+            </form>
+            <form>
+                <i class="fas fa-male fa-2x"></i><br>
+                <label>Male</label><br>
+                <input type="checkbox" id="male">
+            </form>
+        </div>
+        <div id="input_Box">
+            <form>
+                <label>Insert your weight here (kg): </label>
+                <input type="number" placeholder="weight" id="weight">
+            </form> 
+            <form>
+                <label>Insert your height here (m): </label>
+                <input type="number" placeholder="height" id="height">
+            </form>
+            <form> 
+                <label>Insert your age here: </label>
+                <input type="number" placeholder="age" id="age">
+            </form>
+            <button id="button">Submit</button>
+        </div>
+        <p id="text"></p>
+        <script src="bmr.js"></script>
+</body>
+</html>
