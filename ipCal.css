@@ -1,0 +1,85 @@
+#phone{
+    width: 250px;
+    height: 430px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+#displayScreen{
+    width: 200px;
+    height: 120px;
+    transform: translate(-3px, -30px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+#resetButton {
+    width: 100px;
+    height: 30px;
+    transform: translate(0px, -100px);
+}
+#buttonList{
+    width: 230px;
+    height: 280px;
+    margin-top: -180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;    
+    background-color: #333332;
+    border-style: none;
+    margin: 2px;
+}
+.operator{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #ff9f0a;
+}
+#equal{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+#zero{
+    width: 110px;
+}
+#equal{
+    border-style: none;
+    background-color:#ff9f0a ;
+}
+#reset{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 2px;
+    background-color: #a5a5a5;
+    border-style: none;
+}
+#pl_mi{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 2px;
+    background-color: #a5a5a5;
+    border-style: none;
+}
+#mod{
+    background-color: #a5a5a5;
+    margin: 2px;
+}
+#result{
+    font-size: 30px; 
+    color: white;
+    margin: 0px;
+}
+
+
