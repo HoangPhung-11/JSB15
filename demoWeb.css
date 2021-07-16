@@ -1,0 +1,183 @@
+.allPage {
+    width: 100%;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* First Page */
+.firstPage {
+    border-bottom: ridge;
+    display: flex;
+    flex-flow: column;
+    background-image: url('background.jpg');
+}
+.navbarDefault {
+    width: 100%;
+    transform: translate(0px, -280px);
+}
+.intro {
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    height: 150px;
+    transform: translate(400px, 20px);
+    color: white;
+}
+.button {
+    background-color: gray;
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+/* Second Page */
+.secondPage{
+    display: flex;
+    flex-flow: column;
+}
+#slogan{
+    width: 700px;
+    height: 100px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+#subtitle{
+    width: 900px;
+    height: 100px;
+}
+#secondPageContent{
+    width: 1100px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.categories{
+    width: 250px;
+    height: 300px;
+}
+.icon{
+    font-size: 45px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+/*Third Page*/
+.thirdPage{
+    border-style: ridge;
+}
+#picturesHolder{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(10px,0px);
+}
+.singlePic{
+    width: 365px;
+    height: 250px;
+}
+
+/*Fourth Page*/
+.fourthPage{
+    display: flex;
+    flex-flow: column;
+}
+#article{
+    width: 800px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+#fourthPageContent{
+    margin: 20px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#computerImage{
+    width: 300px;
+    height: 500px;
+}
+#tutorialList{
+    width: 600px;
+    height: 500px;
+}
+.tutorial{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+#badgeHolder{
+    width: 600px;
+    height: 80px;
+}
+
+/*Fifth Page*/
+.fifthPage{
+    display: flex;
+    flex-flow: column;
+}
+.leftImage {
+    width: 400px;
+    height: 450px;
+    background-color: aqua;
+}
+.rightBox {
+    width: 450px;
+    height: 450px;
+    background-color:#ECF0FF ;
+    padding: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.infor {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+.message {
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    text-align: top;
+    padding-bottom: 40px;
+}
+.sendMessage {
+    background-color: #3e64ff;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+}
+
+/*Footer*/
+footer {
+    height: 320px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+  }
+  .iconList {
+      width: 100px;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
