@@ -1,0 +1,38 @@
+firstArrayNum = prompt("insert the length of the first array");
+const firstArray = [];
+const secondArray = [];
+const finalArray = [];
+for (i = 0; i<firstArrayNum; i++){
+    firstArrayElement = prompt("Insert the number");
+    firstArray.push(firstArrayElement); 
+}
+secondArrayNum = prompt("insert the length of the second array");
+for (j = 0; j<secondArrayNum; j++){
+    secondArrayElement = prompt("Insert the number");
+    secondArray.push(secondArrayElement ); 
+}
+if (firstArray.length < secondArray.length){
+    for (k = 0; k<secondArray.length; k++){
+        if (k<firstArray.length){
+            finalArrayElement = parseInt(firstArray[k]) + parseInt(secondArray[k]); 
+            finalArray.push(finalArrayElement);
+        }
+        else if (k>=firstArray.length){ 
+            finalArray.push(parseInt(secondArray[k]));
+        }    
+    }
+}
+else if (firstArray.length > secondArray.length){
+    for (k = 0; k<firstArray.length; k++){
+        if (k<secondArray.length){
+            finalArrayElement = parseInt(firstArray[k]) + parseInt(secondArray[k]); 
+            finalArray.push(finalArrayElement);
+        }
+        else if (k>=secondArray.length){
+            finalArray.push(parseInt(firstArray[k]));
+        }    
+    }
+}
+console.log(firstArray);
+console.log(secondArray);
+console.log(finalArray);
